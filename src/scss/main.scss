@@ -2,6 +2,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/brands';
+@import 'bootstrap';
 
 @import 'utils/variables';
 @import 'utils/functions';
@@ -15,6 +16,8 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import 'layout/header';
 @import 'layout/navigation';
 @import 'layout/footer';
+
+@import 'layout/basicinfo';
 
 @import 'pages/home';
 @import 'pages/about';

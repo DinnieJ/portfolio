@@ -1,0 +1,14 @@
+.basic-info {
+    position: relative;
+    background-color: blue;
+    height: 300px;
+    &__avatar {
+        z-index: 1000;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
